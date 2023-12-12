@@ -1,0 +1,35 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.cocktail-card {
+  background-color: #a55656;
+  border: 2px solid #a55656;
+  border-radius: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+}
+
+.cocktail-card img {
+  max-width: 80%;
+  height: auto;
+  margin-bottom: 8px;
+}
+
+cocktail-card button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.cocktail-card button:hover {
+  background-color: #0056b3;
+}
